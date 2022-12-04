@@ -10,7 +10,6 @@ public class TestTryCatch {
 		lerArquivoTrycRecurso("exemplo.txt");
 	}
 	
-	
 	public static void lerArquivoTrycRecurso(String file) throws IOException {
 		String linha="";
 		BufferedReader br = new BufferedReader(new FileReader(file));
