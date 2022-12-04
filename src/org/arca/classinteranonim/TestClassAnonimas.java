@@ -13,7 +13,7 @@ public class TestClassAnonimas {
 			}
 			
 		};
-		System.out.println(somaString.soma("Oi ", "Maria Maxwell, Marlon, Marcelo, Marcio"));
+		System.out.println(somaString.soma("Oi ", "Marcio"));
 	}
 	
 }
