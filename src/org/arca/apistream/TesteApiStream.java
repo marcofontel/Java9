@@ -16,8 +16,8 @@ public class TesteApiStream {
 		lista.add("Janela");
 		
 		lista.stream()
-		.takeWhile(a->a.toString().contains("Geladeira"))
+		.dropWhile(a->a.toString().contains("Geladeira"))
 		.map(a -> a.toString())
-		.forEach(a -> System.out.println(a));
+		.forEach(System.out::println);
 	}
 }
