@@ -4,7 +4,7 @@ public class TestClassAnonimas {
 	
 	public static void main(String[] args) {
 		
-		SomaTudo<String> somaString = new SomaTudo<String>() {
+		SomaTudo<String> somaString = new SomaTudo<>() {
 			
 			@Override
 			public String soma(String a, String b) {
